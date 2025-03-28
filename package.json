@@ -2,6 +2,7 @@
   "name": "fastgpt",
   "version": "4.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "format-code": "prettier --config \"./.prettierrc.js\" --write \"./**/src/**/*.{ts,tsx,scss}\"",
@@ -25,6 +26,7 @@
     "next-i18next": "15.4.2",
     "prettier": "3.2.4",
     "react-i18next": "14.1.2",
+    "ts-jest": "^29.1.0",
     "vitest": "^3.0.2",
     "vitest-mongodb": "^1.0.1",
     "zhlint": "^0.7.4"
@@ -39,5 +41,6 @@
   },
   "dependencies": {
     "jest": "^29.5.0"
-  }
+  },
+  "packageManager": "pnpm@9.15.5+sha256.8472168c3e1fd0bff287e694b053fccbbf20579a3ff9526b6333beab8df65a8d"
 }
